@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+.headings {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #2e60b1;
+}
+
+.sub {
+  text-align: center;
+  font-size: 13px;
+  color: whitesmoke;
+  font-weight: lighter;
+  margin-top: 0;
+}
+.card {
+  background-color: whitesmoke;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.currencyip {
+  display: flex;
+  padding: 10px 3px 3px 3px;
+  justify-content: center;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(58, 58, 58);
+  background: transparent;
+  font-weight: bold;
+  color: rgb(58, 58, 58);
+  margin-bottom: 2rem;
+}
+.currencyip:focus {
+  color: #2e60b1;
+  border-color: #2e60b1;
+}
+.dropdowns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5em;
+}
+select {
+  width: 6rem;
+  padding: 0.4em 1rem 0.4em 0.4em;
+  font-size: 0.9em;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 0.25em;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: all 0.3s ease;
+}
+
+select:hover {
+  color: #2e60b1;
+  border-color: #888;
+  background-color: #f0f0f0;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  left: 10px;
+  outline: none;
+  border: none;
+  padding: 10px;
+}
+button {
+  border: none;
+  outline: none;
+  padding: 10px 30px 10px 30px;
+  background-color: #2e60b1;
+  border-radius: 20px;
+  color: whitesmoke;
+  transition: transform 0.2s;
+  font-size: 15px;
+  margin: 15px;
+}
+button:hover {
+  box-shadow: 0 0 10px #2e60b1;
+  transform: scale(1.1);
+}
+#result {
+  margin-top: -20px;
+  color: #2e60b1;
+  padding: 0px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: large;
+}
